@@ -1,8 +1,10 @@
+import DataDisplay from "./components/DataDisplay";
+
 function App() {
   return (
     <div>
       <main>
-        <h1 className="text-4xl">Hello World!</h1>
+        <DataDisplay />
       </main>
     </div>
   );
